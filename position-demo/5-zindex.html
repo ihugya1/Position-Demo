@@ -7,7 +7,13 @@
 		main { background-color: red; width: 1000px; margin: 0 auto; height: 100vh; }
 		div	{ background-color: blue;  width: 200px; height: 200px; }
 		article { background-color: green; width: 100px; height: 100px; }
+		main{position: relative;}
+		div{position:absolute;left:50px;top:100px;}
+		article{position: relative; top:50px;}
+		/*want the corner of the green box behind*/
+div{z-index:10; }
 	</style>
+
 </head>
 <body>
 	<main>
