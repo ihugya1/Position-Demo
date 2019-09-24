@@ -125,9 +125,13 @@ header {
     margin: 0 auto;
     padding: 50px 0;
     background-color: #555;
+    position: relative;
 }
 
 header img {
+position: absolute;
+bottom: -72.5px;
+left: 80px;
     /* ADD THE RULES POSITION THE LOGO*/
 }
 
@@ -159,6 +163,8 @@ section {
     width: 150px;
     height: 150px;
     background-color: #696969;
+     position: relative;
+    left: 150px;
     /* ADD THE RULES POSITION THE SECOND BOX */
 }
 
@@ -166,6 +172,8 @@ section {
     width: 150px;
     height: 150px;
     background-color: #000;
+    position: relative;
+    left: 300px;
     /* ADD THE RULES POSITION THE THIRD BOX */
 }
 
@@ -175,6 +183,9 @@ footer {
     border: 1px solid #555;
     margin: 0 auto;
     background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: calc(50% - (958px / 2))
     /* ADD THE RULES POSITION THE FOOTER */
     /* 
     because it's relaitve to the viewport, to horizontally center the 
